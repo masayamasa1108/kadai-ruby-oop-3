@@ -7,9 +7,9 @@ class Human < Animal
   include Thinkable
   
   def initialize(fullname, age, hobby)
-    #super(fullname, age)
-    self.fullname = fullname
-    self.age = age
+    super(fullname, age)
+    #self.fullname = fullname
+    #self.age = age
     self.hobby = hobby
   end
 end

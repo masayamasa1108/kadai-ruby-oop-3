@@ -3,8 +3,8 @@ class Animal
   attr_accessor :fullname, :age
   
   def initialize(fullname, age)
-    self.fullname
-    self.age
+    self.fullname = fullname
+    self.age = age
   end
   
   def say
